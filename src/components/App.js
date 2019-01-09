@@ -1,8 +1,15 @@
 import React, { Component } from "react";
+import EventDashboard from "./EventDashboard";
+import Navbar from "./Navbar";
 
 class App extends Component {
   render() {
-    return <div>Revents</div>;
+    return (
+      <div>
+        <Navbar />
+        <EventDashboard />
+      </div>
+    );
   }
 }
 
